@@ -97,10 +97,6 @@ header .cta-button .button-text {
   padding: 228px 0 248px;
 }
 
-.main-offer .container {
-
-}
-
 .main-offer h1 {
   color: #ffffff;
   font-family: 'Playfair Display', serif;
@@ -129,4 +125,43 @@ header .cta-button .button-text {
   position: absolute;
   top: calc(100% / 2 - 27px);
   left: 30px;
+}
+/* end main offer section */
+
+/* start explore food menu section */
+.explore-food-menu {
+  position: relative;
+  background-color: #edf1f3;
+  border-bottom: 1px solid #dde3e7;
+  margin: 0;
+  padding: 0;
+}
+
+.explore-food-menu .ribbon {
+  position: absolute;
+  top: -160px;
+}
+
+.explore-food-menu .ribbon-image {
+  position: relative;
+}
+
+.explore-food-menu h2.label-food-menu {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.explore-food-menu .label-food-menu {
+  position: absolute;
+  bottom: 82px;
+  right: 0;
+  left: 0;
+  max-width: 110px;
+  width: 100%;
 }
