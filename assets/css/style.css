@@ -11,6 +11,10 @@
   color: #fea100;
 }
 
+a {
+  cursor: pointer;
+}
+
 header {
   background-color: #ffffff;
   padding: 22px 0;
