@@ -1,15 +1,15 @@
 /*font-family: 'Playfair Display', serif;*/
 /*font-family: 'Sintony', sans-serif;*/
 
-header {
-  background-color: #ffffff;
-  padding: 22px 0;
-}
-
-header .container {
+.container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 22px 0;
 }
 
 header .main-navigation {
@@ -27,6 +27,7 @@ header .menu-with-cta {
 header .menu-with-cta ul {
   display: flex;
   margin: 0 32px 0;
+  padding: 0;
 }
 
 header .menu-with-cta li {
@@ -47,7 +48,6 @@ header .menu-with-cta a {
   line-height: 30px;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.35px;
 }
 
 header .shopping-cart-option {
@@ -55,7 +55,7 @@ header .shopping-cart-option {
 }
 
 header a.cta-button {
-  padding: 6px 15px;
+  padding: 6px 17px;
   box-sizing: border-box;
   border: 1px solid #ffffff;
   background-color: #fea100;
@@ -76,12 +76,57 @@ header a.cta-button:after {
   border: 3px solid #fea100;
 }
 
-header .cta-button span {
+header .cta-button .button-text {
   color: #ffffff;
   font-family: 'Sintony', sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
-  letter-spacing: 0.35px;
+  margin-left: 14px;
+}
+/* end header */
+
+/* start main offer section */
+.main-offer {
+  position: relative;
+  background-image: url('../img/meat-main-screen.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 228px 0 248px;
+}
+
+.main-offer .container {
+
+}
+
+.main-offer h1 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.main-offer p {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.main-offer .accent-color {
+  color: #fea100;
+}
+
+.main-offer .pagination-carousel {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: calc(100% / 2 - 27px);
+  left: 30px;
 }
