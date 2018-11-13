@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+.accent-color {
+  color: #fea100;
+}
+
 header {
   background-color: #ffffff;
   padding: 22px 0;
@@ -95,6 +99,7 @@ header .cta-button .button-text {
   background-repeat: no-repeat;
   margin: 0;
   padding: 228px 0 248px;
+  line-height: 1;
 }
 
 .main-offer h1 {
@@ -115,10 +120,6 @@ header .cta-button .button-text {
   padding: 0;
 }
 
-.main-offer .accent-color {
-  color: #fea100;
-}
-
 .main-offer .pagination-carousel {
   display: flex;
   flex-direction: column;
@@ -134,7 +135,7 @@ header .cta-button .button-text {
   background-color: #edf1f3;
   border-bottom: 1px solid #dde3e7;
   margin: 0;
-  padding: 0;
+  padding: 25px 0;
 }
 
 .explore-food-menu .ribbon {
@@ -165,3 +166,64 @@ header .cta-button .button-text {
   max-width: 110px;
   width: 100%;
 }
+
+.explore-food-menu ul.contact-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.explore-food-menu .contact-menu li {
+  list-style: none;
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.explore-food-menu .read-reviews, .explore-food-menu .home-delivery {
+  border-right: 1px solid #dde3e7;
+  padding-right: 32px;
+}
+
+.explore-food-menu .contact-menu a {
+  margin-right: 15px;
+}
+
+.explore-food-menu .contact-menu a:last-child {
+  margin-right: 0;
+}
+
+.explore-food-menu .contact-menu a.link-text {
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #14141d;
+  max-width: 62px;
+  width: 100%;
+}
+
+.explore-food-menu .home-delivery a.link-text {
+  max-width: 125px;
+}
+
+.explore-food-menu li.phone-number {
+  margin-right: 0;
+}
+
+.explore-food-menu .phone-number a {
+  color: #14141d;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.explore-food-menu .contact-menu span.accent-color {
+  font-size: 16px;
+}
+/* end explore food menu section */
