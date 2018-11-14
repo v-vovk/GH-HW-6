@@ -299,3 +299,22 @@ header .cta-button .button-text {
 .about-restaurant .bottom-image {
   margin-top: 8px;
 }
+/* end about restaurant section */
+
+/* today special section */
+.today-special {
+  margin: 0;
+  padding: 100px 0 0;
+  line-height: 1;
+  background-image: url('../img/food-bg-menu.png');
+  background-repeat: no-repeat;
+  background-size: auto 440px;
+}
+
+.today-special .header-pagination {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
