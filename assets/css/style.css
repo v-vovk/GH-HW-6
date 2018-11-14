@@ -11,6 +11,10 @@
   color: #fea100;
 }
 
+.secondary-color {
+  color: #fe4c8d;
+}
+
 a {
   cursor: pointer;
 }
@@ -317,4 +321,83 @@ header .cta-button .button-text {
   font-size: 35px;
   font-weight: 700;
   text-align: center;
+}
+
+.today-special .cards-today {
+  display: flex;
+}
+
+.today-special .card-item {
+  max-width: 570px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 24px 38px rgba(0, 0, 0, 0.09);
+}
+
+.today-special .item-info {
+  padding: 50px 50px 30px 50px;
+}
+
+.today-special .item-info h3 {
+  color: #14141d;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.today-special .item-info p {
+  color: #5c6369;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.today-special .card-footer {
+  margin: 60px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #e1e1e1;
+  padding-top: 20px;
+}
+
+.card-footer .left {
+  display: flex;
+}
+
+.today-special a.delivery-link {
+  color: #14141d;
+  font-family: 'Sintony', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  max-width: 60px;
+  width: 100%;
+  padding-right: 20px;
+  border-right: 2px solid #e1e1e1;
+  margin-right: 20px;
+}
+
+.today-special a.phone-delivery {
+  color: #14141d;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.today-special a.price {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
 }
