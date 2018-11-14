@@ -325,6 +325,7 @@ header .cta-button .button-text {
 
 .today-special .cards-today {
   display: flex;
+  justify-content: space-between;
 }
 
 .today-special .card-item {
