@@ -335,6 +335,11 @@ header .cta-button .button-text {
   box-shadow: 0 24px 38px rgba(0, 0, 0, 0.09);
 }
 
+.today-special img.card-photo-food {
+  max-width: 570px;
+  width: 100%;
+}
+
 .today-special .item-info {
   padding: 50px 50px 30px 50px;
 }
