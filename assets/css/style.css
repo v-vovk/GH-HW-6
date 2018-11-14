@@ -231,3 +231,71 @@ header .cta-button .button-text {
   font-size: 16px;
 }
 /* end explore food menu section */
+
+/* start about restaurant section */
+.about-restaurant {
+  margin: 0;
+  padding: 65px 0 100px;
+  line-height: 1;
+}
+
+.about-restaurant .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.about-restaurant .info-about {
+  max-width: 545px;
+  width: 100%;
+}
+
+.about-restaurant .info-about h2 {
+  color: #14141d;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.about-restaurant .info-about p {
+  color: #5c6369;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.about-restaurant .read-more {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.about-restaurant .button-read-more {
+  color: #ffffff;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #fea100;
+  border-radius: 5px;
+  padding: 20px 35px;
+  margin-right: 50px;
+}
+
+.about-restaurant .images-about {
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+}
+
+.about-restaurant .align-bottom {
+  margin: 50px 10px 0 0;
+}
+
+.about-restaurant .bottom-image {
+  margin-top: 8px;
+}
