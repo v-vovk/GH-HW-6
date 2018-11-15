@@ -326,6 +326,26 @@ header .cta-button .button-text {
 .today-special .cards-today {
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+
+.today-special .pagination-carousel {
+  position: absolute;
+  top: -45px;
+  right: 0;
+}
+
+.today-special .pagination-carousel a {
+  text-decoration: none;
+}
+
+.today-special .background-banner {
+  max-width: 310px;
+  width: 100%;
+  position: absolute;
+  bottom: -130px;
+  right: -130px;
+  z-index: -1;
 }
 
 .today-special .card-item {
@@ -368,7 +388,7 @@ header .cta-button .button-text {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 2px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
   padding-top: 20px;
 }
 
@@ -387,7 +407,7 @@ header .cta-button .button-text {
   max-width: 60px;
   width: 100%;
   padding-right: 20px;
-  border-right: 2px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
   margin-right: 20px;
 }
 
@@ -406,4 +426,66 @@ header .cta-button .button-text {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+}
+/* end today special section */
+
+/* food menu section */
+.food-menu {
+  margin-top: 100px;
+  line-height: 1;
+}
+
+.food-menu .title-container {
+  border-bottom: 1px solid #a3b0ba;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food-menu .title-container h2 {
+  color: #14141d;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.food-menu .menu-navigation {
+  max-width: 710px;
+  width: 100%;
+  margin: 40px 0 20px;
+}
+
+.food-menu .title-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.food-menu .title-container li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.food-menu .title-container a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food-menu .title-container img {
+  width: ;
+}
+
+.food-menu .title-container span {
+  color: #14141d;
+  font-family: 'Playfair Display',serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
 }
