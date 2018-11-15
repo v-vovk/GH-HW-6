@@ -435,19 +435,13 @@ header .cta-button .button-text {
   line-height: 1;
 }
 
-.food-menu .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 100px;
-}
-
 .food-menu .title-container {
   border-bottom: 1px solid #a3b0ba;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .food-menu .title-container h2 {
@@ -485,16 +479,27 @@ header .cta-button .button-text {
   align-items: center;
 }
 
-.food-menu .title-container img {
-  width: ;
-}
-
 .food-menu .title-container span {
   color: #14141d;
   font-family: 'Playfair Display',serif;
   font-size: 20px;
   font-weight: 700;
   margin-top: 10px;
+}
+
+.food-menu .banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.food-menu .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  position: relative;
 }
 
 .food-menu .all-menu-items {
@@ -540,6 +545,8 @@ header .cta-button .button-text {
 .food-menu .text-menu {
   display: flex;
   flex-direction: column;
+  max-width: 300px;
+  width: 100%;
 }
 
 .food-menu .text-menu a {
@@ -571,3 +578,10 @@ header .cta-button .button-text {
   background-color: #fea100;
   border-radius: 5px;
 }
+
+.food-menu .menu-banner {
+  position: absolute;
+  bottom: -200px;
+  right: 30px;
+}
+/* end food menu section */
