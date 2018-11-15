@@ -435,6 +435,13 @@ header .cta-button .button-text {
   line-height: 1;
 }
 
+.food-menu .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
 .food-menu .title-container {
   border-bottom: 1px solid #a3b0ba;
   width: 100%;
@@ -488,4 +495,79 @@ header .cta-button .button-text {
   font-size: 20px;
   font-weight: 700;
   margin-top: 10px;
+}
+
+.food-menu .all-menu-items {
+  max-width: 1170px;
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-menu .all-menu-items ul {
+  max-width: 570px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.food-menu .item-food {
+  border-bottom: 1px solid #eeeeee;
+  list-style: none;
+  padding: 0 0 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-menu .item-food:last-child {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.food-menu .item-food span {
+  color: #fea100;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+
+.food-menu .text-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-menu .text-menu a {
+  color: #14141d;
+  font-family: 'Sintony', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.food-menu .text-menu p {
+  color: #5c6369;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.food-menu a.explore-food-menu {
+  color: #ffffff;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 30px;
+  background-color: #fea100;
+  border-radius: 5px;
 }
