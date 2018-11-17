@@ -679,3 +679,116 @@ header .cta-button .button-text {
   text-align: center;
   margin: 15px 0 10px;
 }
+/* end happy clients section */
+
+/* reserve your table */
+.reserve-your-table {
+  margin: 0;
+  padding: 100px 0;
+}
+
+.reserve-your-table h2 {
+  color: #14141d;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.reserve-your-table .contact-form-with-photo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  width: 100%;
+}
+
+.reserve-your-table .contact-form-with-photo form {
+  max-width: 570px;
+  width: 100%;
+}
+
+.reserve-your-table .inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.reserve-your-table .inputs ul {
+  margin: 0;
+  padding: 0;
+  max-width: 270px;
+  width: 100%;
+}
+
+.reserve-your-table .inputs li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #c7d1d6;
+}
+
+.reserve-your-table .inputs input[type=text] {
+  color: #363d43;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+  border: 0;
+  padding: 0;
+}
+
+.reserve-your-table .inputs li:last-child {
+  margin-bottom: 0;
+}
+
+.reserve-your-table .submit-with-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reserve-your-table .submit-with-info input[type=submit] {
+  color: #ffffff;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: #fea100;
+}
+
+.reserve-your-table .submit-with-info .right {
+  display: flex;
+  align-items: center;
+}
+
+.reserve-your-table .right .reservation-link {
+  color: #14141d;
+  font-family: 'Sintony', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  max-width: 130px;
+  width: 100%;
+  padding-right: 15px;
+  margin-right: 15px;
+  border-right: 1px solid #c7d1d6;
+}
+
+.reserve-your-table .right .phone-reservation {
+  color: #14141d;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* end reserve your table section */
