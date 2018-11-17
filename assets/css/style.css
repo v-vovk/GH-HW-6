@@ -941,4 +941,28 @@ footer .our-app-avilable p.name-store {
   font-weight: 400;
   margin: 5px 0 0;
 }
+
+footer .bottom {
+  margin-top: 85px;
+}
+
+footer .bottom h2 {
+  width:100%;
+  text-align:center;
+  border-bottom: 1px solid #52535e;
+  line-height:0.4em;
+  margin:10px 0 20px;
+}
+
+footer .bottom h2 span {
+  background:#373844;
+  padding:0 10px;
+  color: #adb2b7;
+  font-family: 'Sintony', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+
 /* end footer */
