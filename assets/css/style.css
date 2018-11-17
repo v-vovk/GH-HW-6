@@ -760,7 +760,9 @@ header .cta-button .button-text {
   text-transform: uppercase;
   padding: 20px 30px;
   border-radius: 5px;
+  border: none;
   background-color: #fea100;
+  cursor: pointer;
 }
 
 .reserve-your-table .submit-with-info .right {
@@ -792,3 +794,151 @@ header .cta-button .button-text {
   text-decoration: none;
 }
 /* end reserve your table section */
+
+/* footer */
+footer {
+  background-color: #373844;
+  padding: 100px 0 70px;
+}
+
+footer h2 {
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 30px;
+}
+
+footer .top {
+  display: flex;
+  align-items: flex-start;
+}
+
+footer .main-footer-navigation {
+  max-width: 200px;
+  width: 100%;
+  margin-right: 100px;
+}
+
+footer .main-footer-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .main-footer-navigation li {
+  margin-bottom: 20px;
+}
+
+footer .main-footer-navigation li:last-child {
+  margin-bottom: 0;
+}
+
+footer .main-footer-navigation a {
+  color: #adb2b7;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+footer .news-letter {
+  max-width: 470px;
+  width: 100%;
+  margin-right: 130px;
+}
+
+footer .subscribe-news label {
+  color: #adb2b7;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer .input-with-submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 35px;
+}
+
+footer .mail-input {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  border: 2px solid #52535e;
+  border-radius: 5px;
+}
+
+footer .mail-input img {
+  margin-right: 20px;
+}
+
+footer .mail-input input[type=text] {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  color: #e6e9eb;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 230px;
+}
+
+footer .input-with-submit input[type=submit] {
+  color: #ffffff;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 35px;
+  background-color: #fea100;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer .news-letter .social-icon {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .news-letter .social-icon li {
+  margin-right: 10px;
+}
+
+footer .our-app-avilable .store {
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #52535e;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+footer .our-app-avilable .store img {
+  margin-right: 20px;
+}
+
+footer .our-app-avilable .store p {
+  color: #edf1f3;
+  font-family: 'Sintony', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  margin: 0;
+}
+
+footer .our-app-avilable p.name-store {
+  color: #edf1f3;
+  font-family: 'Sintony', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px 0 0;
+}
+/* end footer */
